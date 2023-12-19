@@ -160,7 +160,7 @@ const server = new Server('https://horizon-testnet.stellar.org')
 const questAccount = await server.loadAccount(questKeypair.publicKey())
 
 const poulzAsset = new Asset(
-  code = 'POULZ
+  code = 'POULZ',
   issuer = issuerKeypair.publicKey()
 )
 
@@ -170,7 +170,7 @@ const transaction = new TransactionBuilder(
     networkPassphrase: Networks.TESTNET
   })
   .addOperation(Operation.changeTrust({
-    asset: poulzAsset 
+    asset: poulzAsset,
     limit: “100”,
     source: questKeypair.publicKey()
   }))
