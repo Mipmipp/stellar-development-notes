@@ -1,4 +1,5 @@
-# Stellar doc
+## Stellar doc
+A basic guide following [Stellar Quest](https://quest.stellar.org/learn) levels.
 
 # **Create Account**
 
